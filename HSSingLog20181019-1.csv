@@ -1,3 +1,3 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,A Moment of Eternity,Jen Bird,88.944,NS-JSA2,35.680,25.676,14.762,8.508,4.318,3,1,10,
-2,星空のワルツ,栗林みな実,89.678,NS-JSA2,36.466,26.189,14.390,8.332,4.301,2,4,13,
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,40001752-3b92-415f-9e10-3f100c1c777a,139e241c-9f51-4f47-b1a9-933a58fa2628,A Moment of Eternity,Jen Bird,88.944,NS-JSA2,35.680,25.676,14.762,8.508,4.318,Normal,1,3,10,
+2,97f23b2d-3b02-4453-878c-80ab789aa4fb,e3709621-a3d3-495b-a8a0-751101917b5e,星空のワルツ,栗林みな実,89.678,NS-JSA2,36.466,26.189,14.390,8.332,4.301,Normal,4,2,13,

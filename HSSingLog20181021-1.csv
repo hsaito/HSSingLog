@@ -1,10 +1,10 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,A Moment of Eternity,Jen Bird,90.738,NS-JSA2,36.417,26.218,14.851,8.792,4.460,5,2,8,
-2,星空のワルツ,栗林みな実,90.152,NS-JSA2,36.513,25.887,14.452,8.685,4.615,2,3,12,
-3,あるこう,中川翔子,92.887,NS-JSA2,37.361,28.342,14.330,8.616,4.238,4,0,7,Melody guide muted
-4,まくがあがる,全フレンズ,92.291,NS-JSA2,37.390,28.236,14.116,8.266,4.283,0,0,4,Melody guide muted
-5,われらじゃぱりびん,フェネック/アライグマ/チーター,89.955,NS-JSA2,35.954,26.492,13.844,8.865,4.800,7,0,2,Melody guide muted
-6,けものとおどろう,全フレンズ,92.324,NS-JSA2,37.228,28.176,13.820,8.865,4.235,5,0,5,Melody guide muted
-7,きみのままで,かばん,89.264,NS-JSA2,36.088,26.633,13.682,8.637,4.224,7,0,2,Melody guide muted
-8,CLEAR,坂本真綾,88.897,NS-JSA2,36.379,25.992,13.632,8.440,4.454,5,0,3,Melody guide muted
-9,ふゆびより,佐々木恵梨,96.446,NS-JSA2,39.337,29.604,14.402,8.633,4.470,2,0,8,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,15bed390-fdbf-4e33-9119-267193fd3ec0,139e241c-9f51-4f47-b1a9-933a58fa2628,A Moment of Eternity,Jen Bird,90.738,NS-JSA2,36.417,26.218,14.851,8.792,4.460,Normal,2,5,8,
+2,1cdf136a-5526-43d9-a8a6-9795e6f2b105,e3709621-a3d3-495b-a8a0-751101917b5e,星空のワルツ,栗林みな実,90.152,NS-JSA2,36.513,25.887,14.452,8.685,4.615,Normal,3,2,12,
+3,de6a59f9-fced-4efb-8625-0437d50256eb,f4ef8a4e-a476-4a66-9d17-1c4c8357f41a,あるこう,中川翔子,92.887,NS-JSA2,37.361,28.342,14.330,8.616,4.238,Muted,0,4,7,
+4,6b023ea5-d497-4224-b2dc-fab9412dd53e,54936fa3-6a56-4f7c-abf4-3a09d4de7843,まくがあがる,全フレンズ,92.291,NS-JSA2,37.390,28.236,14.116,8.266,4.283,Muted,0,0,4,
+5,c7a76a0e-695e-4498-9c97-176bc027dbb1,3f414958-8261-4c40-b8ad-fbedde2b0879,われらじゃぱりびん,フェネック/アライグマ/チーター,89.955,NS-JSA2,35.954,26.492,13.844,8.865,4.800,Muted,0,7,2,
+6,ee682b95-9f3b-47c9-96b8-95b7e030466b,7979e302-149a-48fc-b91f-5e52db5edf5c,けものとおどろう,全フレンズ,92.324,NS-JSA2,37.228,28.176,13.820,8.865,4.235,Muted,0,5,5,
+7,4b7cb717-c75f-4ed6-b7e8-8df8aebc4b5a,2ce1049e-082f-4413-b78c-a8e0315e027a,きみのままで,かばん,89.264,NS-JSA2,36.088,26.633,13.682,8.637,4.224,Muted,0,7,2,
+8,42a1f130-18fb-4a7d-909e-8a271cf1e78a,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,88.897,NS-JSA2,36.379,25.992,13.632,8.440,4.454,Muted,0,5,3,
+9,93e80082-7a18-45b5-9121-29a247d91fd9,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,96.446,NS-JSA2,39.337,29.604,14.402,8.633,4.470,Muted,0,2,8,

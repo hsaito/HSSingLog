@@ -1,14 +1,14 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,約束,如月千早(今井麻美),94.775,NS-JSA2,38.213,28.589,14.582,9.043,4.348,1,0,8,Melody guide muted
-2,あなたの一番になりたい,南央美,94.642,NS-JSA2,38.280,28.817,14.510,8.786,4.249,1,2,6,Melody guide muted
-3,Clover,marhy,94.365,NS-JSA2,37.736,28.608,14.440,9.049,4.532,2,0,6,Melody guide muted
-4,CROSS ROAD,marhy,92.662,NS-JSA2,38.325,27.399,14.125,8.584,4.229,3,0,4,Melody guide muted
-5,あるこう,中川翔子,93.737,NS-JSA2,38.094,28.486,14.449,8.596,4.112,0,0,7,Melody guide muted
-6,君が望む永遠,栗林みな実,95.083,NS-JSA2,37.860,29.160,14.550,8.975,4.538,2,1,2,Melody guide muted
-7,A.I.C.O.,TRUE,96.545,NS-JSA2,38.187,29.734,15.000,9.151,4.473,0,1,4,Melody guide muted
-8,未知の彼方,白石晴香,97.097,NS-JSA2,38.891,29.914,15.000,8.805,4.487,0,1,10,Melody guide muted
-9,ここから、ここから,玉木マリ(CV:水瀬いのり)、小淵沢報瀬(CV:花澤香菜)、三宅日向(CV:井口裕香)、白石結月(CV:早見沙織),94.170,NS-JSA2,38.209,28.018,14.638,8.804,4.501,1,5,6,Melody guide muted
-10,SHINY DAYS,亜咲花,88.520,NS-JSA2,35.995,25.678,13.709,8.616,4.522,2,0,4,Melody guide muted
-11,LET'S GO JUMP☆,尾崎由香,91.756,NS-JSA2,37.128,26.964,14.254,9.199,4.211,1,0,2,Melody guide muted
-12,CLEAR,坂本真綾,90.246,NS-JSA2,36.669,26.463,13.860,8.871,4.383,5,0,5,Melody guide muted
-13,ふゆびより,佐々木恵梨,98.427,NS-JSA2,40.000,30.000,14.548,9.525,4.354,1,1,4,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,df7e0301-92b2-4af3-bf67-c2248df1cfde,b2e9bfe4-8305-440c-b002-cb20dd4e0ea5,約束,如月千早(今井麻美),94.775,NS-JSA2,38.213,28.589,14.582,9.043,4.348,Muted,0,1,8,
+2,85ad3868-f20e-465c-80e8-ef641cb87263,b21e15b6-1fd5-476e-b24c-d822f94587b2,あなたの一番になりたい,南央美,94.642,NS-JSA2,38.280,28.817,14.510,8.786,4.249,Muted,2,1,6,
+3,9d083189-1109-4d85-aad0-d2211d5cd893,7f1e018f-fb05-42c6-b992-346cd6936af9,Clover,marhy,94.365,NS-JSA2,37.736,28.608,14.440,9.049,4.532,Muted,0,2,6,
+4,d20c2813-ea9d-4549-a1b9-d4d375387385,d7afe7e6-c231-4128-9f32-fae1e8309378,CROSS ROAD,marhy,92.662,NS-JSA2,38.325,27.399,14.125,8.584,4.229,Muted,0,3,4,
+5,756f9d80-e0de-4d74-bbe5-7271817ff126,f4ef8a4e-a476-4a66-9d17-1c4c8357f41a,あるこう,中川翔子,93.737,NS-JSA2,38.094,28.486,14.449,8.596,4.112,Muted,0,0,7,
+6,667923ce-2521-466b-acb4-de71f5d91a7b,8c8222ef-49bc-4955-b4b6-281059de71f5,君が望む永遠,栗林みな実,95.083,NS-JSA2,37.860,29.160,14.550,8.975,4.538,Muted,1,2,2,
+7,51621bd5-d7d6-419b-939f-597d9a0e8c63,a6a02ec9-0fef-4dde-902e-840c79617eff,A.I.C.O.,TRUE,96.545,NS-JSA2,38.187,29.734,15.000,9.151,4.473,Muted,1,0,4,
+8,245c9080-ecdd-4e0d-9c5a-8ac2a2bc47ef,f8ccd1b5-8017-4f0e-b93f-d166864d91a4,未知の彼方,白石晴香,97.097,NS-JSA2,38.891,29.914,15.000,8.805,4.487,Muted,1,0,10,
+9,c8eb7786-6425-4e97-ab97-2e2b77e4096c,a47fdb60-81cb-452e-a91c-df11407835db,ここから、ここから,玉木マリ(CV:水瀬いのり)、小淵沢報瀬(CV:花澤香菜)、三宅日向(CV:井口裕香)、白石結月(CV:早見沙織),94.170,NS-JSA2,38.209,28.018,14.638,8.804,4.501,Muted,5,1,6,
+10,5b39dce6-9978-4b6f-80fd-837843771a0a,ccca3ac9-7ef9-4148-8353-04f31f31d7b5,SHINY DAYS,亜咲花,88.520,NS-JSA2,35.995,25.678,13.709,8.616,4.522,Muted,0,2,4,
+11,9c629d5a-c519-47ec-98f6-5b38f3c2c413,78d0e51f-42e9-44ca-ada7-da4be51a761f,LET'S GO JUMP☆,尾崎由香,91.756,NS-JSA2,37.128,26.964,14.254,9.199,4.211,Muted,0,1,2,
+12,f96229bc-e5b4-4ce9-9a23-ec89b020804b,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,90.246,NS-JSA2,36.669,26.463,13.860,8.871,4.383,Muted,0,5,5,
+13,3cc48d8d-67a0-4986-8f87-d0f3386d01c5,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,98.427,NS-JSA2,40.000,30.000,14.548,9.525,4.354,Muted,1,1,4,

@@ -1,7 +1,7 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,リワインド,鈴木みのり,91.854,NS-JSA,36.741,27.820,13.733,9.264,4.296,2,4,4,
-2,心の大樹,ポプ子(CV:五十嵐裕美)、ピピ美(CV:松嵜麗),92.112,NS-JSA,37.165,28.108,14.192,8.404,4.243,0,0,3,
-3,ロケットビート,安野希世乃,96.853,NS-JSA,38.624,30.000,14.334,9.307,4.588,1,1,6,
-4,CLEAR,坂本真綾,91.845,NS-JSA,37.414,27.973,13.421,8.722,4.315,1,1,1,
-5,Jewelry,早見沙織,94.391,NS-JSA,38.393,29.130,13.964,8.399,4.505,0,1,5,
-6,ふゆびより,佐々木恵梨,96.686,NS-JSA,39.436,29.440,14.394,8.989,4.427,2,6,10,
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,9f7ccb84-4e08-4516-937f-d29c3708135c,156d46ed-27ad-4fab-a22a-cadc25540f98,リワインド,鈴木みのり,91.854,NS-JSA,36.741,27.820,13.733,9.264,4.296,Normal,4,2,4,
+2,a5bb80bd-3ab4-47f3-8117-caecee76384f,d4ac4c86-fab4-42d5-9c68-7681a37451ec,心の大樹,ポプ子(CV:五十嵐裕美)、ピピ美(CV:松嵜麗),92.112,NS-JSA,37.165,28.108,14.192,8.404,4.243,Normal,0,0,3,
+3,7ca362c7-f751-4efd-9613-70bb989ba3e7,44f4acc3-6b18-4704-aa86-419b867dc919,ロケットビート,安野希世乃,96.853,NS-JSA,38.624,30.000,14.334,9.307,4.588,Normal,1,1,6,
+4,afd86237-379a-48a0-9b58-eb5ec7212d18,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,91.845,NS-JSA,37.414,27.973,13.421,8.722,4.315,Normal,1,1,1,
+5,d737c55c-4cd6-4bca-bd8d-35c8ff5be9f5,013792b2-8a06-4155-ab24-e70dde655979,Jewelry,早見沙織,94.391,NS-JSA,38.393,29.130,13.964,8.399,4.505,Normal,1,0,5,
+6,a971bef4-16fd-4b78-8bf6-0a77be7a03fa,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,96.686,NS-JSA,39.436,29.440,14.394,8.989,4.427,Normal,6,2,10,

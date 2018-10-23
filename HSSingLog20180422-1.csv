@@ -1,8 +1,8 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,Honey,chihiro,94.718,NS-JSA,38.587,28.588,14.447,8.764,4.332,2,1,13,
-2,SHINY DAYS,亜咲花,88.912,NS-JSA,36.330,26.584,13.514,8.152,4.332,1,4,10,
-3,ここから、ここから,玉木マリ(CV:水瀬いのり)、小淵沢報瀬(CV:花澤香菜)、三宅日向(CV:井口裕香)、白石結月(CV:早見沙織),95.044,NS-JSA,38.823,28.681,14.545,8.389,4.606,2,1,4,
-4,The Girls Are Alright!,saya,90.523,NS-JSA,36.991,26.874,13.042,9.176,4.440,3,0,2,
-5,Jewelry,早見沙織,93.857,NS-JSA,38.377,28.276,14.108,8.650,4.446,1,4,5,
-6,CLEAR,坂本真綾,91.710,NS-JSA,37.254,27.872,13.469,8.609,4.506,3,2,7,
-7,ふゆびより,佐々木恵梨,97.777,NS-JSA,40.000,29.849,14.287,9.060,4.581,1,5,1,
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,271c87bf-0b06-458a-b597-1992241bf03f,d10dc855-8f5a-4985-9960-3a454b984872,Honey,chihiro,94.718,NS-JSA,38.587,28.588,14.447,8.764,4.332,Normal,1,2,13,
+2,0d24ef9e-ec30-4d29-b43d-8a8fefb9241f,ccca3ac9-7ef9-4148-8353-04f31f31d7b5,SHINY DAYS,亜咲花,88.912,NS-JSA,36.330,26.584,13.514,8.152,4.332,Normal,4,1,10,
+3,c5ef1892-3f2e-402c-9790-7bb89531f241,a47fdb60-81cb-452e-a91c-df11407835db,ここから、ここから,玉木マリ(CV:水瀬いのり)、小淵沢報瀬(CV:花澤香菜)、三宅日向(CV:井口裕香)、白石結月(CV:早見沙織),95.044,NS-JSA,38.823,28.681,14.545,8.389,4.606,Normal,1,2,4,
+4,ff877803-f19d-4d8b-b31d-c962b899fe3c,7caa31da-18b6-483e-8525-4c80af1c293d,The Girls Are Alright!,saya,90.523,NS-JSA,36.991,26.874,13.042,9.176,4.440,Normal,0,3,2,
+5,9d2c1e88-30ef-46c6-a7a6-530c265d1390,013792b2-8a06-4155-ab24-e70dde655979,Jewelry,早見沙織,93.857,NS-JSA,38.377,28.276,14.108,8.650,4.446,Normal,4,1,5,
+6,c804b7bf-fb6b-4442-b69a-4948504015c6,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,91.710,NS-JSA,37.254,27.872,13.469,8.609,4.506,Normal,2,3,7,
+7,80eaf2dc-aa74-4885-8d12-25f075167f0f,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,97.777,NS-JSA,40.000,29.849,14.287,9.060,4.581,Normal,5,1,1,

@@ -1,11 +1,11 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,LET'S GO JUMP☆,尾崎由香,93.003,NS-JSA2,37.016,27.946,14.251,9.153,4.637,1,0,5,Melody guide muted
-2,冒険でしょでしょ?,平野綾,87.798,NS-JSA2,35.733,24.869,13.715,8.913,4.568,3,3,5,Melody guide muted
-3,ずっと Be with you,RAMMに這いよるニャル子さん,87.245,NS-JSA2,35.768,24.941,13.368,8.845,4.323,0,5,6,Melody guide muted
-4,ミライファンファーレ,流川ガールズ【宇佐美奈々子(CV伊藤美来)&小日向縁(CV三澤紗千香)】,92.285,NS-JSA2,36.190,28.119,14.270,9.318,4.388,0,2,9,Melody guide muted
-5,シャボン・デ・セ・シ・ボン,沢城みゆき,91.287,NS-JSA2,36.780,27.766,13.789,8.560,4.392,3,0,3,Melody guide muted
-6,Rumbling hearts,栗林みな実,93.774,NS-JSA2,37.943,28.889,14.226,8.596,4.120,3,0,11,Melody guide muted
-7,いっしょにいたいね,栗林みな実,91.709,NS-JSA2,37.156,26.993,14.104,9.050,4.406,0,0,9,Melody guide muted
-8,雨あがり,松下萌子,90.328,NS-JSA2,36.990,26.021,14.158,8.649,4.510,6,0,6,Melody guide muted
-9,CLEAR,坂本真綾,91.136,NS-JSA2,37.237,27.142,13.614,8.741,4.402,4,0,9,Melody guide muted
-10,ふゆびより,佐々木恵梨,96.823,NS-JSA2,39.985,29.321,14.222,8.779,4.516,2,4,4,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,e5e8b0d1-5b7b-44d8-b7dc-56b81691ec7f,78d0e51f-42e9-44ca-ada7-da4be51a761f,LET'S GO JUMP☆,尾崎由香,93.003,NS-JSA2,37.016,27.946,14.251,9.153,4.637,Muted,0,1,5,
+2,aff43ffa-56af-4594-b646-3335bf5cd067,34d06c95-f7f2-45c4-97eb-948798110167,冒険でしょでしょ?,平野綾,87.798,NS-JSA2,35.733,24.869,13.715,8.913,4.568,Muted,3,3,5,
+3,e32a1805-b7d9-49d5-8120-ac16555f9aa8,f2435c46-dfdf-4696-a63a-4343eff17528,ずっと Be with you,RAMMに這いよるニャル子さん,87.245,NS-JSA2,35.768,24.941,13.368,8.845,4.323,Muted,5,0,6,
+4,19e03a9a-652f-4869-8c99-68ca32944172,3eae3e7a-3978-4b62-a92c-9eace63847b0,ミライファンファーレ,流川ガールズ【宇佐美奈々子(CV伊藤美来)&小日向縁(CV三澤紗千香)】,92.285,NS-JSA2,36.190,28.119,14.270,9.318,4.388,Muted,2,0,9,
+5,cd71f4df-6a2a-4eba-9a22-b34169cb2570,2f654df3-18a4-4ae9-9c23-6c4211d63e1c,シャボン・デ・セ・シ・ボン,沢城みゆき,91.287,NS-JSA2,36.780,27.766,13.789,8.560,4.392,Muted,0,3,3,
+6,269d5cd1-86e4-4256-ab32-d200d2a6fc35,698245e3-c85b-47db-8c94-e0e346aa8538,Rumbling hearts,栗林みな実,93.774,NS-JSA2,37.943,28.889,14.226,8.596,4.120,Muted,0,3,11,
+7,07ef4ee0-3706-4e53-840b-71f6dcfbb5eb,ba4abfc6-6039-4ae9-8fb9-7f3b25472220,いっしょにいたいね,栗林みな実,91.709,NS-JSA2,37.156,26.993,14.104,9.050,4.406,Muted,0,0,9,
+8,417220c6-6693-4eb1-be18-483fa0091e27,021ab05c-32ca-48b3-a673-b8a4c8dd6073,雨あがり,松下萌子,90.328,NS-JSA2,36.990,26.021,14.158,8.649,4.510,Muted,0,6,6,
+9,08684a49-cdbc-4be2-9b14-38befcfd087c,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,91.136,NS-JSA2,37.237,27.142,13.614,8.741,4.402,Muted,0,4,9,
+10,a77e5625-9558-4b4c-af7d-d295c99f1543,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,96.823,NS-JSA2,39.985,29.321,14.222,8.779,4.516,Muted,4,2,4,

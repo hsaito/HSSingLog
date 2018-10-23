@@ -1,15 +1,15 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,フレ!フレ!ベストフレンズ,どうぶつビスケッツ×PPP,90.298,NS-JSA2,36.439,26.367,13.776,9.396,4.320,2,1,8,Melody guide muted
-2,LET'S GO JUMP☆,尾崎由香,93.408,NS-JSA2,37.931,28.133,14.179,9.023,4.142,0,0,3,Melody guide muted
-3,Yes，I Will…,森川美穂,92.514,NS-JSA2,37.821,27.279,13.924,9.187,4.303,0,0,9,Melody guide muted
-4,SHINY DAYS,亜咲花,87.197,NS-JSA2,35.415,24.888,13.744,8.631,4.519,0,0,8,Melody guide muted
-5,WINTER WISH,米倉千尋,93.260,NS-JSA2,37.663,27.672,14.344,8.993,4.588,2,2,8,Melody guide muted
-6,Honey,chihiro,95.604,NS-JSA2,38.901,28.961,14.431,8.777,4.534,1,0,13,Melody guide muted
-7,Raison d'etre,田中理恵,90.150,NS-JSA2,36.319,26.429,13.771,9.032,4.599,0,0,5,Melody guide muted
-8,無限抱擁,高橋洋子,91.066,NS-JSA2,37.332,26.072,14.436,8.750,4.476,3,3,12,Melody guide muted
-9,God knows...,涼宮ハルヒ(C.V.平野綾),91.330,NS-JSA2,36.750,26.964,13.814,8.996,4.806,1,1,2,Melody guide muted
-10,Lost my music,涼宮ハルヒ(C.V.平野綾),92.890,NS-JSA2,37.800,28.217,13.835,8.910,4.128,0,0,6,Melody guide muted
-11,EONIAN -イオニアン-,ELISA connect EFP,91.308,NS-JSA2,36.449,27.946,14.024,8.532,4.357,1,1,5,Melody guide muted
-12,Voice of Heart,真田アサミ/沢城みゆき/氷上恭子,92.942,NS-JSA2,37.479,27.910,14.348,8.867,4.338,1,0,12,Melody guide muted
-13,CLEAR,坂本真綾,90.942,NS-JSA2,37.105,27.370,13.493,8.680,4.294,2,0,5,Melody guide muted
-14,ふゆびより,佐々木恵梨,96.274,NS-JSA2,39.919,28.899,14.246,8.888,4.322,1,4,8,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,a7f34690-b216-4908-ae2f-94b5874af085,7c2b8a33-e43a-49a6-b417-ef048d36aec4,フレ!フレ!ベストフレンズ,どうぶつビスケッツ×PPP,90.298,NS-JSA2,36.439,26.367,13.776,9.396,4.320,Muted,1,2,8,
+2,949e005f-be83-4fa8-a1f0-6aa02f04a277,78d0e51f-42e9-44ca-ada7-da4be51a761f,LET'S GO JUMP☆,尾崎由香,93.408,NS-JSA2,37.931,28.133,14.179,9.023,4.142,Muted,0,0,3,
+3,b5abc42c-9cf2-49a7-845f-10b86fd00c32,124792f8-e053-42a1-9bdd-412d95b6e078,Yes，I Will…,森川美穂,92.514,NS-JSA2,37.821,27.279,13.924,9.187,4.303,Muted,0,0,9,
+4,6ade0d5a-9cb7-42a7-bf8c-51349adbedeb,ccca3ac9-7ef9-4148-8353-04f31f31d7b5,SHINY DAYS,亜咲花,87.197,NS-JSA2,35.415,24.888,13.744,8.631,4.519,Muted,0,0,8,
+5,17c9b678-109d-48fb-b724-c7be12bae02e,4d61549b-8778-406f-95ef-4a7a7d323c4b,WINTER WISH,米倉千尋,93.260,NS-JSA2,37.663,27.672,14.344,8.993,4.588,Muted,2,2,8,
+6,00b1f631-6541-434e-bbdb-26d2e4a20801,d10dc855-8f5a-4985-9960-3a454b984872,Honey,chihiro,95.604,NS-JSA2,38.901,28.961,14.431,8.777,4.534,Muted,0,1,13,
+7,53883e99-0c8c-49cc-af93-c07f656a971d,050c83ee-3c29-4de1-b970-8ef7309a49a9,Raison d'etre,田中理恵,90.150,NS-JSA2,36.319,26.429,13.771,9.032,4.599,Muted,0,0,5,
+8,7af7f5ad-5550-4071-b546-3615ab262dab,8cfbda77-880b-47d3-bb2d-13c6a062a969,無限抱擁,高橋洋子,91.066,NS-JSA2,37.332,26.072,14.436,8.750,4.476,Muted,3,3,12,
+9,8ac84eae-d816-4fba-a434-f535466f17e8,de4405bc-1e32-4ed8-be86-bab6b87ed689,God knows...,涼宮ハルヒ(C.V.平野綾),91.330,NS-JSA2,36.750,26.964,13.814,8.996,4.806,Muted,1,1,2,
+10,a79638f1-3166-44df-b934-57104f708e72,b5d13e69-ee4c-49d0-af2e-f7f5372863b3,Lost my music,涼宮ハルヒ(C.V.平野綾),92.890,NS-JSA2,37.800,28.217,13.835,8.910,4.128,Muted,0,0,6,
+11,87e0dc62-f491-4077-af45-3cc89e18fcc1,992107b3-eb56-4afc-b79d-a1b23129050a,EONIAN -イオニアン-,ELISA connect EFP,91.308,NS-JSA2,36.449,27.946,14.024,8.532,4.357,Muted,1,1,5,
+12,2d5a7b04-50cb-4cb0-951c-eb695c3732ad,00be33b0-767a-46b8-b89b-a6cf0c6638a6,Voice of Heart,真田アサミ/沢城みゆき/氷上恭子,92.942,NS-JSA2,37.479,27.910,14.348,8.867,4.338,Muted,0,1,12,
+13,06e8c15e-b9d7-43d2-bf38-e2485a9f10e7,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,90.942,NS-JSA2,37.105,27.370,13.493,8.680,4.294,Muted,0,2,5,
+14,a974a473-57ea-423e-afbd-6b514deb6866,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,96.274,NS-JSA2,39.919,28.899,14.246,8.888,4.322,Muted,4,1,8,

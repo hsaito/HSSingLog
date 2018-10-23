@@ -1,9 +1,9 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,A Moment of Eternity,Jen Bird,91.682,NS-JSA2,36.983,27.056,14.896,8.677,4.070,1,0,5,
-2,星空のワルツ,栗林みな実,90.382,NS-JSA2,36.814,26.604,14.334,8.112,4.518,0,2,12,
-3,約束,如月千早(今井麻美),92.802,NS-JSA2,37.595,27.377,14.539,8.807,4.484,2,0,10,Melody guide muted
-4,あなたの一番になりたい,南央美,93.263,NS-JSA2,37.854,27.814,14.394,8.577,4.624,7,3,7,Melody guide muted
-5,君を知ること,イカ娘(金元寿子),92.426,NS-JSA2,36.734,28.445,13.955,8.892,4.400,2,0,4,Melody guide muted
-6,無限抱擁,高橋洋子,91.542,NS-JSA2,37.291,26.470,14.323,8.958,4.500,3,2,10,Melody guide muted
-7,CLEAR,坂本真綾,89.161,NS-JSA2,36.337,25.887,13.784,8.572,4.581,2,0,7,Melody guide muted
-8,ふゆびより,佐々木恵梨,97.420,NS-JSA2,40.000,30.000,14.352,8.781,4.287,2,1,4,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,1b9ef47c-3c67-4f0f-bb00-9bc7b06a14ad,139e241c-9f51-4f47-b1a9-933a58fa2628,A Moment of Eternity,Jen Bird,91.682,NS-JSA2,36.983,27.056,14.896,8.677,4.070,Normal,0,1,5,
+2,ef023c5c-9375-4157-806d-d33b974a1c47,e3709621-a3d3-495b-a8a0-751101917b5e,星空のワルツ,栗林みな実,90.382,NS-JSA2,36.814,26.604,14.334,8.112,4.518,Normal,2,0,12,
+3,81ab5081-b88c-418d-a6d1-988c427069cc,b2e9bfe4-8305-440c-b002-cb20dd4e0ea5,約束,如月千早(今井麻美),92.802,NS-JSA2,37.595,27.377,14.539,8.807,4.484,Muted,0,2,10,
+4,96cea1ad-3be8-4306-a0ac-a87e98bdc9a2,b21e15b6-1fd5-476e-b24c-d822f94587b2,あなたの一番になりたい,南央美,93.263,NS-JSA2,37.854,27.814,14.394,8.577,4.624,Muted,3,7,7,
+5,0d054ecf-c19d-4054-9b5b-1cbc5cebde42,45e6915c-c420-4e20-b292-9a4204c0af1c,君を知ること,イカ娘(金元寿子),92.426,NS-JSA2,36.734,28.445,13.955,8.892,4.400,Muted,0,2,4,
+6,acc5c333-ae75-4b06-a17a-d6019166c84f,8cfbda77-880b-47d3-bb2d-13c6a062a969,無限抱擁,高橋洋子,91.542,NS-JSA2,37.291,26.470,14.323,8.958,4.500,Muted,2,3,10,
+7,aff43fa8-4b4e-4361-9187-72a087d57006,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,89.161,NS-JSA2,36.337,25.887,13.784,8.572,4.581,Muted,0,2,7,
+8,36d90706-e90f-418f-a58e-d329d15f5ee2,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,97.420,NS-JSA2,40.000,30.000,14.352,8.781,4.287,Muted,1,2,4,

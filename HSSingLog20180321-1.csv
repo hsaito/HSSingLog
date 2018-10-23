@@ -1,7 +1,7 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,Eternal Love ～光の天使より～,飯島真理,95.218,NS-JSA,38.764,29.495,14.138,8.347,4.474,0,2,11,
-2,Yes，I Will…,森川美穂,92.327,NS-JSA,37.532,27.433,13.655,9.466,4.241,2,0,10,
-3,アイスクリイム,千葉紗子,94.328,NS-JSA,38.345,28.878,14.250,8.286,4.569,3,0,7,
-4,ときめきポポロン♪,チマメ隊,91.937,NS-JSA,37.548,28.496,13.396,8.384,4.113,2,0,3,
-5,ふゆびより,佐々木恵梨,93.734,NS-JSA,38.287,27.688,14.302,9.017,4.440,4,6,8,
-6,CLEAR,坂本真綾,91.880,NS-JSA,37.178,27.932,13.529,8.837,4.404,2,0,3,
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,5976b92c-5869-46cb-ba30-577379a218c8,cc0a5d5b-e1e6-4ab3-bfab-5648085fd4e7,Eternal Love ～光の天使より～,飯島真理,95.218,NS-JSA,38.764,29.495,14.138,8.347,4.474,Normal,2,0,11,
+2,9282572d-0d3e-4d22-b4ca-f97b54728bd4,124792f8-e053-42a1-9bdd-412d95b6e078,Yes，I Will…,森川美穂,92.327,NS-JSA,37.532,27.433,13.655,9.466,4.241,Normal,0,2,10,
+3,4822b0f2-40ce-4237-8666-15cce2c81313,fad4c546-8aa1-4598-b796-d45de00df198,アイスクリイム,千葉紗子,94.328,NS-JSA,38.345,28.878,14.250,8.286,4.569,Normal,0,3,7,
+4,275e27de-f481-41ae-b0c6-91e536050db9,1ddcd0d0-727c-42e0-ba54-343dc99f5614,ときめきポポロン♪,チマメ隊,91.937,NS-JSA,37.548,28.496,13.396,8.384,4.113,Normal,0,2,3,
+5,612862c7-6c06-456e-b975-5daecac9432d,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,93.734,NS-JSA,38.287,27.688,14.302,9.017,4.440,Normal,6,4,8,
+6,053fc89c-d93a-40eb-818f-f7834620dd11,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,91.880,NS-JSA,37.178,27.932,13.529,8.837,4.404,Normal,0,2,3,

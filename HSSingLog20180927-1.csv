@@ -1,10 +1,10 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,おかえり,宮内れんげ(小岩井ことり)、一条蛍(村川梨衣)、越谷夏海(佐倉綾音)、越谷小鞠(阿澄佳奈),93.373,NS-JSA2,37.947,27.785,14.228,8.845,4.568,2,1,8,Melody guide muted
-2,フレ!フレ!ベストフレンズ,どうぶつビスケッツ×PPP,91.271,NS-JSA2,36.979,26.295,13.912,9.540,4.545,5,1,8,Melody guide muted
-3,The Girls Are Alright!,saya,89.162,NS-JSA2,35.899,25.515,13.540,9.632,4.576,1,0,7,Melody guide muted
-4,うまるん体操,妹S,87.076,NS-JSA2,34.814,25.124,14.239,9.030,3.869,5,1,2,Melody guide muted
-5,ゆっこはほんとにバカだなぁ,長野原みお(CV.相沢舞),93.990,NS-JSA2,37.492,29.182,14.058,9.091,4.167,1,1,6,Melody guide muted
-6,Friendship,堀江由衣・倉田雅世・浅川悠・高木礼子・野田順子・雪乃五月・小林由美子,95.999,NS-JSA2,38.687,30.000,14.473,8.916,3.923,3,2,4,Melody guide muted
-7,きみのままで,かばん,92.202,NS-JSA2,37.170,27.864,13.945,8.807,4.416,1,1,4,Melody guide muted
-8,CLEAR,坂本真綾,91.509,NS-JSA2,37.373,27.368,13.835,9.125,3.808,2,0,1,Melody guide muted
-9,ふゆびより,佐々木恵梨,96.994,NS-JSA2,39.842,29.369,14.432,8.798,4.553,0,4,4,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,b5c6b28c-f253-45d8-815b-471e2a68b0dc,c5554e32-e1c7-4f02-b57f-30e53e1cc1eb,おかえり,宮内れんげ(小岩井ことり)、一条蛍(村川梨衣)、越谷夏海(佐倉綾音)、越谷小鞠(阿澄佳奈),93.373,NS-JSA2,37.947,27.785,14.228,8.845,4.568,Muted,1,2,8,
+2,5b71889b-97b1-491b-8efb-333594ed0017,7c2b8a33-e43a-49a6-b417-ef048d36aec4,フレ!フレ!ベストフレンズ,どうぶつビスケッツ×PPP,91.271,NS-JSA2,36.979,26.295,13.912,9.540,4.545,Muted,1,5,8,
+3,b5eefbf8-1e5c-4b1c-99bc-24b93cbb5d94,7caa31da-18b6-483e-8525-4c80af1c293d,The Girls Are Alright!,saya,89.162,NS-JSA2,35.899,25.515,13.540,9.632,4.576,Muted,0,1,7,
+4,07a8cd83-f02e-455d-a711-da14bb2ecbc2,a2ee58b9-722b-45c7-90ea-e07ef50b9a88,うまるん体操,妹S,87.076,NS-JSA2,34.814,25.124,14.239,9.030,3.869,Muted,1,5,2,
+5,ef7e980a-9ddf-4ff7-9785-00a85c869851,269598a6-09af-4856-b426-1ab14715a1a3,ゆっこはほんとにバカだなぁ,長野原みお(CV.相沢舞),93.990,NS-JSA2,37.492,29.182,14.058,9.091,4.167,Muted,1,1,6,
+6,67382962-3fb2-423b-b670-3a41f103efff,bf1e8378-059e-476a-b76c-b8b1269c257c,Friendship,堀江由衣・倉田雅世・浅川悠・高木礼子・野田順子・雪乃五月・小林由美子,95.999,NS-JSA2,38.687,30.000,14.473,8.916,3.923,Muted,2,3,4,
+7,9c9eaf97-1cca-4492-9677-b91fb3936d9d,2ce1049e-082f-4413-b78c-a8e0315e027a,きみのままで,かばん,92.202,NS-JSA2,37.170,27.864,13.945,8.807,4.416,Muted,1,1,4,
+8,a130e780-86f2-40e8-a844-3e91bea624fa,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,91.509,NS-JSA2,37.373,27.368,13.835,9.125,3.808,Muted,0,2,1,
+9,3ea3d276-e3bd-45c5-b5a3-76431467cb6a,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,96.994,NS-JSA2,39.842,29.369,14.432,8.798,4.553,Muted,4,0,4,

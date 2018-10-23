@@ -1,10 +1,10 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,ブルーウォーター,森川美穂,93.688,NS-JSA2,38.046,28.078,14.248,8.651,4.665,1,1,8,Melody guide muted
-2,まくがあがる,全フレンズ,94.804,NS-JSA2,38.446,29.302,14.209,8.662,4.185,0,0,3,Melody guide muted
-3,われらじゃぱりびん,フェネック/アライグマ/チーター,91.581,NS-JSA2,36.555,27.449,13.973,9.061,4.543,4,0,5,Melody guide muted
-4,けものとおどろう,全フレンズ,89.744,NS-JSA2,37.274,27.675,13.751,8.944,2.100,1,0,0,Melody guide muted
-5,おてんとさまに聞いてみるにょ,真田アサミ,91.978,NS-JSA2,37.042,27.622,13.733,9.049,4.532,0,0,5,Melody guide muted
-6,Little Wish ～lyrical step～,田村ゆかり,92.455,NS-JSA2,36.900,28.479,13.714,8.900,4.462,2,1,11,Melody guide muted
-7,かたことの恋 ―ちぃVer.―,田中理恵,91.751,NS-JSA2,37.739,26.772,13.643,9.239,4.358,0,0,2,Melody guide muted
-8,CLEAR,坂本真綾,91.486,NS-JSA2,37.271,27.399,13.741,8.756,4.319,3,0,3,Melody guide muted
-9,ふゆびより,佐々木恵梨,97.545,NS-JSA2,39.950,30.000,14.377,8.717,4.501,0,0,10,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,bff248ab-c6f6-4505-ba39-76ccb21bd5e9,01f38b23-6619-47a2-906a-2fedb8f914fb,ブルーウォーター,森川美穂,93.688,NS-JSA2,38.046,28.078,14.248,8.651,4.665,Muted,1,1,8,
+2,0bbb6c60-2837-4600-81fe-65e348be5511,54936fa3-6a56-4f7c-abf4-3a09d4de7843,まくがあがる,全フレンズ,94.804,NS-JSA2,38.446,29.302,14.209,8.662,4.185,Muted,0,0,3,
+3,9d2d486d-8fc3-481c-a751-6666d76abd3b,3f414958-8261-4c40-b8ad-fbedde2b0879,われらじゃぱりびん,フェネック/アライグマ/チーター,91.581,NS-JSA2,36.555,27.449,13.973,9.061,4.543,Muted,0,4,5,
+4,d01cea20-f42b-4a24-a9d3-38ce55c8416a,7979e302-149a-48fc-b91f-5e52db5edf5c,けものとおどろう,全フレンズ,89.744,NS-JSA2,37.274,27.675,13.751,8.944,2.100,Muted,0,1,0,
+5,f4a39f75-aee8-4428-ab99-16dc81e3d595,15c037f4-330c-4bc4-a028-9c1d18075efb,おてんとさまに聞いてみるにょ,真田アサミ,91.978,NS-JSA2,37.042,27.622,13.733,9.049,4.532,Muted,0,0,5,
+6,f8eeef85-a16f-4845-96d7-8746348c19f0,b6e8dc56-c807-41d7-9f5d-098b42734f91,Little Wish ～lyrical step～,田村ゆかり,92.455,NS-JSA2,36.900,28.479,13.714,8.900,4.462,Muted,1,2,11,
+7,be48f6d2-7e2c-42d1-bbf7-792848b47a91,0c50189a-85d0-4176-9c42-26583d1eed5d,かたことの恋 ―ちぃVer.―,田中理恵,91.751,NS-JSA2,37.739,26.772,13.643,9.239,4.358,Muted,0,0,2,
+8,37ee3888-2a97-437c-831f-2a985cdcf75f,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,91.486,NS-JSA2,37.271,27.399,13.741,8.756,4.319,Muted,0,3,3,
+9,0397966d-b763-4552-a40d-ee4b04ea133b,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,97.545,NS-JSA2,39.950,30.000,14.377,8.717,4.501,Muted,0,0,10,

@@ -1,7 +1,7 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,CLEAR,坂本真綾,91.306,NS-JSA,37.012,27.433,13.435,8.584,4.842,4,0,2,
-2,Jewelry,早見沙織,93.335,NS-JSA,37.961,28.446,14.112,8.412,4.404,2,1,3,
-3,ロケットビート,安野希世乃,95.204,NS-JSA,38.023,30.000,14.312,8.521,4.348,0,0,6,
-4,リワインド,鈴木みのり,95.002,NS-JSA,37.520,30.000,13.650,9.263,4.569,0,1,5,
-5,SHINY DAYS,亜咲花,89.731,NS-JSA,36.514,27.388,13.568,7.988,4.273,0,2,2,
-6,ふゆびより,佐々木恵梨,95.702,NS-JSA,39.650,28.624,14.164,9.012,4.252,3,4,2,
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,7d00171c-8729-455e-a214-198ac0604af8,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,91.306,NS-JSA,37.012,27.433,13.435,8.584,4.842,Normal,0,4,2,
+2,994085ef-a301-49f5-93b0-e260f9b7fef1,013792b2-8a06-4155-ab24-e70dde655979,Jewelry,早見沙織,93.335,NS-JSA,37.961,28.446,14.112,8.412,4.404,Normal,1,2,3,
+3,99e097b7-6287-4ecf-90c2-0a6cdfdb6e0a,44f4acc3-6b18-4704-aa86-419b867dc919,ロケットビート,安野希世乃,95.204,NS-JSA,38.023,30.000,14.312,8.521,4.348,Normal,0,0,6,
+4,e36c13b5-1729-4c60-906f-18b89f92bbc3,156d46ed-27ad-4fab-a22a-cadc25540f98,リワインド,鈴木みのり,95.002,NS-JSA,37.520,30.000,13.650,9.263,4.569,Normal,1,0,5,
+5,61b2f349-990e-48bb-bf99-eb1986db1083,ccca3ac9-7ef9-4148-8353-04f31f31d7b5,SHINY DAYS,亜咲花,89.731,NS-JSA,36.514,27.388,13.568,7.988,4.273,Normal,2,0,2,
+6,f13c7f27-5bf0-400d-9572-57753a48d494,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,95.702,NS-JSA,39.650,28.624,14.164,9.012,4.252,Normal,4,3,2,

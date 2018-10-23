@@ -1,14 +1,14 @@
-Sequence,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Tremolo,Shakuri,Vibrato,Note
-1,うさぎになったバリスタ,青山ブルーマウンテン(早見沙織),92.898,NS-JSA2,37.801,27.336,14.304,8.760,4.697,0,0,2,Melody guide muted
-2,ゆりゆららららゆるゆり大事件,七森中☆ごらく部,88.459,NS-JSA2,36.082,25.671,13.706,8.602,4.398,0,3,7,Melody guide muted
-3,真夏のイヴ,永井真理子,96.320,NS-JSA2,38.584,29.981,14.586,8.967,4.202,1,0,7,Melody guide muted
-4,なののおひるねおせんたく,東雲なの(CV.古谷静佳),96.183,NS-JSA2,38.718,29.492,14.500,8.993,4.480,2,6,13,Melody guide muted
-5,なののネジ回しラプソディ,東雲なの(CV.古谷静佳),86.725,NS-JSA2,35.226,24.821,13.660,8.595,4.423,1,3,10,Melody guide muted
-6,Ever Come to an End,ANUNA,90.054,NS-JSA2,39.198,28.197,10.000,7.659,5.000,0,0,5,Melody guide muted
-7,Shadow of the Lowlands,ANUNA,92.378,NS-JSA2,40.000,29.840,10.000,7.538,5.000,0,2,4,Melody guide muted
-8,Our Eternal Land,ANUNA,92.008,NS-JSA2,40.000,29.385,10.000,7.623,5.000,0,1,2,Melody guide muted
-9,We Are the Chosen Ones,ANUNA,93.182,NS-JSA2,40.000,30.000,10.000,8.182,5.000,0,2,4,Melody guide muted
-10,Drifting Soul,Jen Bird,89.670,NS-JSA2,36.232,26.403,14.309,8.372,4.354,1,1,6,Melody guide muted
-11,One Last You,Jen Bird,94.162,NS-JSA2,37.458,28.918,14.875,8.698,4.213,2,6,8,Melody guide muted
-12,CLEAR,坂本真綾,90.209,NS-JSA2,36.846,26.722,13.582,8.336,4.723,1,0,2,Melody guide muted
-13,ふゆびより,佐々木恵梨,97.423,NS-JSA2,40.000,30.000,14.474,8.735,4.214,2,2,9,Melody guide muted
+Sequence,Entry ID,Title ID,Title,Artist,Score,Platform,Tone,Stability,Intonation,Long Tone,Technique,Guide Melody,Shakuri,Tremolo,Vibrato,Note
+1,edbed7e4-77b1-4456-a13a-0cfe6dc4c753,ed729e78-86aa-4a36-b117-11bd15b7b672,うさぎになったバリスタ,青山ブルーマウンテン(早見沙織),92.898,NS-JSA2,37.801,27.336,14.304,8.760,4.697,Muted,0,0,2,
+2,8ca748ec-7372-4f24-abe4-bfe3fcb057a6,2090fa36-6b28-4968-945e-e966c2139ce0,ゆりゆららららゆるゆり大事件,七森中☆ごらく部,88.459,NS-JSA2,36.082,25.671,13.706,8.602,4.398,Muted,3,0,7,
+3,05f4298c-b969-4dc5-85f1-0676512bf05f,1f6da8cf-8c71-4592-b03d-f2057b892853,真夏のイヴ,永井真理子,96.320,NS-JSA2,38.584,29.981,14.586,8.967,4.202,Muted,0,1,7,
+4,fc97cbe8-2057-40ac-8ac5-a947afd6842e,81546d69-bab7-401e-95b0-fcb870112ca7,なののおひるねおせんたく,東雲なの(CV.古谷静佳),96.183,NS-JSA2,38.718,29.492,14.500,8.993,4.480,Muted,6,2,13,
+5,d63094b1-f2cc-415b-834d-d016ff6162df,370cbbf7-60db-445c-9ade-beaa11ae3a7e,なののネジ回しラプソディ,東雲なの(CV.古谷静佳),86.725,NS-JSA2,35.226,24.821,13.660,8.595,4.423,Muted,3,1,10,
+6,eebbcf9d-529e-430a-8544-82758a506b31,23ce744b-4473-4b28-878b-407ccdabd010,Ever Come to an End,ANUNA,90.054,NS-JSA2,39.198,28.197,10.000,7.659,5.000,Muted,0,0,5,
+7,af3bed3f-d2a0-417c-8203-5b6a02195534,ff90404d-e772-4fed-9ade-955b3a473226,Shadow of the Lowlands,ANUNA,92.378,NS-JSA2,40.000,29.840,10.000,7.538,5.000,Muted,2,0,4,
+8,e18044c7-87e1-4f81-a3c1-2ce914581443,4de13eb0-3e37-47f9-a943-08fe11b3f041,Our Eternal Land,ANUNA,92.008,NS-JSA2,40.000,29.385,10.000,7.623,5.000,Muted,1,0,2,
+9,839568cb-a0dc-498b-8b3e-c591f6d43e46,7b54de93-f1c7-4208-ac9f-3a0fadabb1f9,We Are the Chosen Ones,ANUNA,93.182,NS-JSA2,40.000,30.000,10.000,8.182,5.000,Muted,2,0,4,
+10,40e182dd-d699-4611-96bb-b1510f08fc42,2c3cbebb-fd33-4edd-b323-9733b8296e58,Drifting Soul,Jen Bird,89.670,NS-JSA2,36.232,26.403,14.309,8.372,4.354,Muted,1,1,6,
+11,a62ab9c8-d753-49f7-a1eb-ab2e9d9f61bc,25b86310-11be-4c18-858e-916a620a4be3,One Last You,Jen Bird,94.162,NS-JSA2,37.458,28.918,14.875,8.698,4.213,Muted,6,2,8,
+12,60859627-32ec-4322-9ff5-ffd0216ff6e9,f9120abe-14e6-436c-b999-2ec8577a8636,CLEAR,坂本真綾,90.209,NS-JSA2,36.846,26.722,13.582,8.336,4.723,Muted,0,1,2,
+13,db1559b7-e4c2-4c7b-afe2-8f58cc18ff04,e06b97de-c2b0-4b6c-9566-7079aba28306,ふゆびより,佐々木恵梨,97.423,NS-JSA2,40.000,30.000,14.474,8.735,4.214,Muted,2,2,9,
