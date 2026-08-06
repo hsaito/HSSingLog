@@ -1,4 +1,18 @@
 
+DROP VIEW IF EXISTS records_detail;
+DROP VIEW IF EXISTS songs;
+DROP TABLE IF EXISTS records;
+DROP TABLE IF EXISTS tempo;
+DROP TABLE IF EXISTS releases;
+DROP TABLE IF EXISTS authors;
+DROP TABLE IF EXISTS titles;
+DROP TABLE IF EXISTS records_with_titles;
+DROP TABLE IF EXISTS records_csv;
+DROP TABLE IF EXISTS titles_csv;
+DROP TABLE IF EXISTS authors_csv;
+DROP TABLE IF EXISTS release_csv;
+DROP TABLE IF EXISTS tempo_csv;
+
 CREATE TABLE titles_csv AS SELECT
   *
 FROM read_csv('titles.csv',
@@ -114,43 +128,23 @@ CREATE TABLE titles (
 
 CREATE TABLE authors (
   "Title ID" UUID PRIMARY KEY REFERENCES titles("Title ID"),
-  "Writer 1" VARCHAR,
-  "Writer 2" VARCHAR,
-  "Writer 3" VARCHAR,
-  "Writer 4" VARCHAR,
-  "Writer 5" VARCHAR,
-  "Composer 1" VARCHAR,
-  "Composer 2" VARCHAR,
-  "Composer 3" VARCHAR,
-  "Composer 4" VARCHAR,
-  "Composer 5" VARCHAR,
-  "Arranger 1" VARCHAR,
-  "Arranger 2" VARCHAR,
-  "Arranger 3" VARCHAR,
-  "Arranger 4" VARCHAR,
-  "Arranger 5" VARCHAR
+  Writers VARCHAR[],
+  Composers VARCHAR[],
+  Arrangers VARCHAR[]
 );
 
 CREATE TABLE releases (
   "Title ID" UUID PRIMARY KEY REFERENCES titles("Title ID"),
   Year INTEGER,
   Month INTEGER,
-  Day INTEGER
+  Day INTEGER,
+  "Release Date" DATE
 );
 
 CREATE TABLE tempo (
   "Title ID" UUID PRIMARY KEY REFERENCES titles("Title ID"),
-  BPM INTEGER,
-  "BPM 01" INTEGER,
-  "BPM 02" INTEGER,
-  "BPM 03" INTEGER,
-  "BPM 04" INTEGER,
-  "BPM 05" INTEGER,
-  "BPM 06" INTEGER,
-  "BPM 07" INTEGER,
-  "BPM 08" INTEGER,
-  "BPM 09" INTEGER,
-  "BPM 10" INTEGER
+  Tempo INTEGER,
+  Tempos INTEGER[]
 );
 
 CREATE TABLE records (
@@ -160,8 +154,8 @@ CREATE TABLE records (
     "Title ID" UUID NOT NULL REFERENCES titles("Title ID"),
     "Session Date" DATE NOT NULL,
     "Session Number" INT,
-    Title VARCHAR NOT NULL,
-    Artist VARCHAR NOT NULL,
+  Title VARCHAR NOT NULL,
+  Artist VARCHAR NOT NULL,
     Score FLOAT NOT NULL,
     Platform VARCHAR NOT NULL,
     Tone FLOAT,
@@ -187,21 +181,9 @@ FROM titles_csv;
 INSERT INTO authors
 SELECT
   "Title ID",
-  "Writer 1",
-  "Writer 2",
-  "Writer 3",
-  "Writer 4",
-  "Writer 5",
-  "Composer 1",
-  "Composer 2",
-  "Composer 3",
-  "Composer 4",
-  "Composer 5",
-  "Arranger 1",
-  "Arranger 2",
-  "Arranger 3",
-  "Arranger 4",
-  "Arranger 5"
+  list_filter(list_value("Writer 1", "Writer 2", "Writer 3", "Writer 4", "Writer 5"), lambda writer: writer IS NOT NULL),
+  list_filter(list_value("Composer 1", "Composer 2", "Composer 3", "Composer 4", "Composer 5"), lambda composer: composer IS NOT NULL),
+  list_filter(list_value("Arranger 1", "Arranger 2", "Arranger 3", "Arranger 4", "Arranger 5"), lambda arranger: arranger IS NOT NULL)
 FROM authors_csv;
 
 INSERT INTO releases
@@ -209,23 +191,18 @@ SELECT
   "Title ID",
   Year,
   Month,
-  Day
+  Day,
+  CASE
+    WHEN Year IS NOT NULL AND Month IS NOT NULL AND Day IS NOT NULL THEN try_strptime(printf('%04d-%02d-%02d', Year, Month, Day), '%Y-%m-%d')::DATE
+    ELSE NULL
+  END AS "Release Date"
 FROM release_csv;
 
 INSERT INTO tempo
 SELECT
   "Title ID",
-  BPM,
-  "BPM 01",
-  "BPM 02",
-  "BPM 03",
-  "BPM 04",
-  "BPM 05",
-  "BPM 06",
-  "BPM 07",
-  "BPM 08",
-  "BPM 09",
-  "BPM 10"
+  BPM AS Tempo,
+  list_filter(list_value("BPM 01", "BPM 02", "BPM 03", "BPM 04", "BPM 05", "BPM 06", "BPM 07", "BPM 08", "BPM 09", "BPM 10"), lambda tempo_value: tempo_value IS NOT NULL) AS Tempos
 FROM tempo_csv;
 
 INSERT INTO records
@@ -252,6 +229,61 @@ SELECT
   rc.Note
 FROM records_csv rc
 JOIN titles t USING ("Title ID");
+
+CREATE VIEW songs AS
+SELECT
+  t."Title ID",
+  t.Title,
+  t.Artist,
+  t.ISWC,
+  a.Writers,
+  a.Composers,
+  a.Arrangers,
+  r.Year,
+  r.Month,
+  r.Day,
+  r."Release Date",
+  tp.Tempo,
+  tp.Tempos
+FROM titles t
+LEFT JOIN authors a USING ("Title ID")
+LEFT JOIN releases r USING ("Title ID")
+LEFT JOIN tempo tp USING ("Title ID");
+
+CREATE VIEW records_detail AS
+SELECT
+  rc."Entry Number",
+  rc."Session Sequence",
+  rc."Entry ID",
+  rc."Title ID",
+  rc."Session Date",
+  rc."Session Number",
+  rc.Title,
+  rc.Artist,
+  rc.Score,
+  rc.Platform,
+  rc.Tone,
+  rc.Stability,
+  rc.Intonation,
+  rc."Long Tone",
+  rc.Technique,
+  rc."Guide Melody",
+  rc.Shakuri,
+  rc.Tremolo,
+  rc.Vibrato,
+  rc.Note,
+  s.ISWC,
+  s.Writers,
+  s.Composers,
+  s.Arrangers,
+  s.Year AS "Release Year",
+  s.Month AS "Release Month",
+  s.Day AS "Release Day",
+  s."Release Date",
+  s.Tempo,
+  s.Tempos
+FROM records rc
+LEFT JOIN songs s USING ("Title ID");
 
 DROP TABLE records_csv;
 DROP TABLE titles_csv;
