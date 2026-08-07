@@ -99,6 +99,7 @@ FROM read_csv('HSSingLog*.csv',
   delim=',',
   quote='"',
   filename=true,
+  union_by_name = true,
   columns={
     "Sequence": 'UBIGINT',
     "Entry ID": 'UUID',
