@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS authors_csv;
 DROP TABLE IF EXISTS release_csv;
 DROP TABLE IF EXISTS tempo_csv;
 
-CREATE TABLE titles_csv AS SELECT
+CREATE TEMP TABLE titles_csv AS SELECT
   *
 FROM read_csv('titles.csv',
   header=true,
@@ -27,7 +27,7 @@ FROM read_csv('titles.csv',
     ISWC: 'VARCHAR'
   });
 
-CREATE TABLE authors_csv AS SELECT
+CREATE TEMP TABLE authors_csv AS SELECT
   *
 FROM read_csv('authors.csv',
   header=true,
@@ -53,7 +53,7 @@ FROM read_csv('authors.csv',
     "Arranger 5": 'VARCHAR'
   });
 
-CREATE TABLE release_csv AS SELECT
+CREATE TEMP TABLE release_csv AS SELECT
   *
 FROM read_csv('release.csv',
   header=true,
@@ -67,7 +67,7 @@ FROM read_csv('release.csv',
     Day: 'INTEGER'
   });
 
-CREATE TABLE tempo_csv AS SELECT
+CREATE TEMP TABLE tempo_csv AS SELECT
   *
 FROM read_csv('tempo.csv',
   header=true,
@@ -89,9 +89,12 @@ FROM read_csv('tempo.csv',
     "BPM 10": 'INTEGER'
   });
 
-CREATE TABLE records_csv AS SELECT
+CREATE TEMP TABLE records_csv AS SELECT
   *,
   row_number() OVER () AS "Entry Number",
+  year(strptime(regexp_extract(filename, '([0-9]{8})', 1), '%Y%m%d')::DATE) AS "Session Year",
+  month(strptime(regexp_extract(filename, '([0-9]{8})', 1), '%Y%m%d')::DATE) AS "Session Month",
+  day(strptime(regexp_extract(filename, '([0-9]{8})', 1), '%Y%m%d')::DATE) AS "Session Day",
   strptime(regexp_extract(filename, '([0-9]{8})', 1), '%Y%m%d')::DATE AS "Session Date",
   CAST(NULLIF(regexp_extract(filename, '-([0-9]+)', 1), '') AS INT) AS "Session Number"
 FROM read_csv('HSSingLog*.csv',
@@ -99,6 +102,7 @@ FROM read_csv('HSSingLog*.csv',
   delim=',',
   quote='"',
   filename=true,
+  union_by_name = true,
   columns={
     "Sequence": 'UBIGINT',
     "Entry ID": 'UUID',
@@ -152,6 +156,9 @@ CREATE TABLE records (
     "Session Sequence" UBIGINT,
     "Entry ID" UUID UNIQUE PRIMARY KEY,
     "Title ID" UUID NOT NULL REFERENCES titles("Title ID"),
+    "Session Year" INTEGER,
+    "Session Month" INTEGER,
+    "Session Day" INTEGER,
     "Session Date" DATE NOT NULL,
     "Session Number" INT,
   Title VARCHAR NOT NULL,
@@ -211,6 +218,9 @@ SELECT
   rc."Sequence" AS "Session Sequence",
   rc."Entry ID",
   rc."Title ID",
+  rc."Session Year",
+  rc."Session Month",
+  rc."Session Day",
   rc."Session Date",
   rc."Session Number",
   t.Title,
@@ -256,6 +266,9 @@ SELECT
   rc."Session Sequence",
   rc."Entry ID",
   rc."Title ID",
+  rc."Session Year",
+  rc."Session Month",
+  rc."Session Day",
   rc."Session Date",
   rc."Session Number",
   rc.Title,
@@ -285,8 +298,8 @@ SELECT
 FROM records rc
 LEFT JOIN songs s USING ("Title ID");
 
-DROP TABLE records_csv;
-DROP TABLE titles_csv;
-DROP TABLE authors_csv;
-DROP TABLE release_csv;
-DROP TABLE tempo_csv;
+DROP TABLE IF EXISTS records_csv;
+DROP TABLE IF EXISTS titles_csv;
+DROP TABLE IF EXISTS authors_csv;
+DROP TABLE IF EXISTS release_csv;
+DROP TABLE IF EXISTS tempo_csv;
