@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS authors_csv;
 DROP TABLE IF EXISTS release_csv;
 DROP TABLE IF EXISTS tempo_csv;
 
-CREATE TABLE titles_csv AS SELECT
+CREATE TEMP TABLE titles_csv AS SELECT
   *
 FROM read_csv('titles.csv',
   header=true,
@@ -27,7 +27,7 @@ FROM read_csv('titles.csv',
     ISWC: 'VARCHAR'
   });
 
-CREATE TABLE authors_csv AS SELECT
+CREATE TEMP TABLE authors_csv AS SELECT
   *
 FROM read_csv('authors.csv',
   header=true,
@@ -53,7 +53,7 @@ FROM read_csv('authors.csv',
     "Arranger 5": 'VARCHAR'
   });
 
-CREATE TABLE release_csv AS SELECT
+CREATE TEMP TABLE release_csv AS SELECT
   *
 FROM read_csv('release.csv',
   header=true,
@@ -67,7 +67,7 @@ FROM read_csv('release.csv',
     Day: 'INTEGER'
   });
 
-CREATE TABLE tempo_csv AS SELECT
+CREATE TEMP TABLE tempo_csv AS SELECT
   *
 FROM read_csv('tempo.csv',
   header=true,
@@ -89,7 +89,7 @@ FROM read_csv('tempo.csv',
     "BPM 10": 'INTEGER'
   });
 
-CREATE TABLE records_csv AS SELECT
+CREATE TEMP TABLE records_csv AS SELECT
   *,
   row_number() OVER () AS "Entry Number",
   strptime(regexp_extract(filename, '([0-9]{8})', 1), '%Y%m%d')::DATE AS "Session Date",
@@ -285,8 +285,8 @@ SELECT
 FROM records rc
 LEFT JOIN songs s USING ("Title ID");
 
-DROP TABLE records_csv;
-DROP TABLE titles_csv;
-DROP TABLE authors_csv;
-DROP TABLE release_csv;
-DROP TABLE tempo_csv;
+DROP TABLE IF EXISTS records_csv;
+DROP TABLE IF EXISTS titles_csv;
+DROP TABLE IF EXISTS authors_csv;
+DROP TABLE IF EXISTS release_csv;
+DROP TABLE IF EXISTS tempo_csv;
